@@ -1,0 +1,38 @@
+pH, Ka, and pKa are all related to each other. For an acid HA:
+
+Ka = [H+][A-] / [HA]
+pKa = - log Ka
+pH = - log([H+])
+
+At the halfway point on an equivalence curve, pH = pKa.
+
+Ka of Weak Acids
+Name	Formula	Ka	pKa
+acetic	HC2H3O2	1.8 x 10-5	4.7
+ascorbic (I)	H2C6H6O6	7.9 x 10-5	4.1
+ascorbic (II)	HC6H6O6-	1.6 x 10-12	11.8
+benzoic	HC7H5O2	6.4 x 10-5	4.2
+boric (I)	H3BO3	5.4 x 10-10	9.3
+boric (II)	H2BO3-	1.8 x 10-13	12.7
+boric (III)	HBO32-	1.6 x 10-14	13.8
+carbonic (I)	H2CO3	4.5 x 10-7	6.3
+carbonic (II)	HCO3-	4.7 x 10-11	10.3
+citric (I)	H3C6H5O7	3.2 x 10-7	6.5
+citric (II)	H2C6H5O7-	1.7 x 105	4.8
+citric (III)	HC6H5O72-	4.1 x 10-7	6.4
+formic	HCHO2	1.8 x 10-4	3.7
+hydrazidic	HN3	1.9 x 10-5	4.7
+hydrocyanic	HCN	6.2 x 10-10	9.2
+hydrofluoric	HF	6.3 x 10-4	3.2
+hydrogen peroxide	H2O2	2.4 x 10-12	11.6
+hydrogen sulfate ion	HSO4-	1.2 x 10-2	1.9
+hypochlorous	HOCl	3.5 x 10-8	7.5
+lactic	HC3H5O3	8.3 x 10-4	3.1
+nitrous	HNO2	4.0 x 10-4	3.4
+oxalic (I)	H2C2O4	5.8 x 10-2	1.2
+oxalic (II)	HC2O4-	6.5 x 10-5	4.2
+phenol	HOC6H5	1.6 x 10-10	9.8
+propanic	HC3H5O2	1.3 x 10-5	4.9
+sulfurous (I)	H2SO3	1.4 x 10-2	1.85
+sulfurous (II)	HSO3-	6.3 x 10-8	7.2
+uric	HC5H3N4O3	1.3 x 10-4	3.9
