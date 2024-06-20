@@ -218,55 +218,84 @@ Esse volume corresponde à metade do volume de equivalência, portanto, nesse po
 	\end{align*}
 \end{fleqn}
 
-\section{Curva de titulação}
-A curva de titulação é resultado de programa escrito em Python, que, utilizando os passos descritos na seção \textbf{Etapas de titulação}, produziu os dados necessários para sua construção. \\
+\subsection{Adição de 50,00 mL (0,05 L) de NaOH - no ponto de equivalência}
+A adição de 50,00 mL de base quer dizer que estamos no ponto de equivalência, onde todo o ácido é neutralizado pela base. Neste ponto, o cálculo do pH é realizado pensando-se na hidrólise do sal (NaAc), cuja equação pode ser vista abaixo:
 
-O programa toma como referência os dados para titulação da seção 3 e calcula o pH considerando a variação de volume do NaOH de 0,00 mL até 120 mL. Abaixo, podemos ver os primeiros e últimos valores deste cálculo:
+\begin{chemeqn}
+	Ac^{-}_{(aq)} + H_{2}O_{(l)} \equilibarrow HAc_{(aq)} + OH^-{} 
+\end{chemeqn}
+
+Nesse sentido, a maneira de realizar o cálculo envolverá a concentração de $OH^{-}$ presente no sistema. E outra variável que também precisaremos é o valor de Kb. Assim:
+
+\begin{fleqn}
+	\begin{align*}
+		[OH^{-}] = \sqrt{Kb \times C_{NaAc}}
+	\end{align*}
+\end{fleqn}
+
+Para calcular a concentração do sal, que será a mesma do acetato, é preciso pensar que este tem uma relação estequiométrica de 1:1 com a base, portanto, para saber a $[Ac^{-}]$ usaremos os dados de NaOH, dessa forma:
+
+\begin{fleqn}
+	\begin{align*}
+		&[NaAc] = \frac{ (C_{NaOH} \times V_{NaOH}) }{ (V_{HAc} + V_{NaOH}) } = \frac{ (0,1 \times 0,05) }{ (0,05 + 0,05) } \rightarrow \mathbf{[NaAc] = 5,0 \times 10^-2 \text{ \textbf{mol}} \times L^{-1}}
+	\end{align*}
+\end{fleqn}
+
+O próximo passo é calcular o valor do Kb: 
+
+\begin{fleqn}
+	\begin{align*}
+		&Kw = Ka \times Kb \rightarrow (1,0 \times 10^{-14}) = (1,75 \times 10^{-5}) \times Kb \\ \\
+		&Kb = \frac{1,0 \times 10^{-14}}{1,75 \times 10^{-5}} \rightarrow \mathbf{Kb = 5,71 \times 10^{-10}}
+	\end{align*}
+\end{fleqn}
+
+Finalizado com o cálculo da $[OH^{-}]$ e consequentemente o valor do pH no ponto de equivalência:
+
+\begin{fleqn}
+	\begin{align*}
+		&[OH^{-}] = \sqrt{Kb \times C_{NaAc}} = \sqrt{(5,71 \times 10^{-10}) \times (5,0 \times 10^{-2})} \\
+		&[OH^{-}] = 5,34 \times 10^{-6} \rightarrow pOH = 5,27 \rightarrow \textbf{pH = 8,73}
+	\end{align*}
+\end{fleqn}
+
+\subsection{Após a adição de 50,10 mL (0,0510 L) de NaOH}
+Neste ponto todo o ácido foi neutralizado, portanto, passamos a ter um excesso de base.
+
+\begin{fleqn}
+	\begin{align*}
+		&[OH^{-}] = \frac{ (C_{NaOH} \times V_{NaOH}) - (C_{HAc} \times V_{HAc}) }{ (V_{NaOH} \times V_{HAC}) } = \frac{ (0,1 \times 0,0510) - (0,1 \times 0,05) }{ (0,0510 + 0,05) } \\ \\	
+		&[OH^{-}] = 9,99 \times 10^{-4} \rightarrow pOH = 3,00 \rightarrow \textbf{pH = 10,00}
+	\end{align*}
+\end{fleqn}
+
+\section{Curva de titulação}
+A curva de titulação (Figura \ref{curvadetitulacaoacacetico}) é resultado de programa escrito em Python, que, utilizando os passos descritos na seção \textbf{Etapas de titulação}, produziu os dados necessários para sua construção. \\
+
+O programa toma como referência os dados para titulação da seção 3 e calcula o pH considerando a variação de volume do NaOH de 0,00 mL até 120 mL. Na Tabela \ref{demo-table} podemos ver os primeiros e últimos valores deste cálculo:
 
 \begin{table}[H]
 	\begin{center}
-		\begin{tabular}{lp{5cm}lp{10cm}}\toprule
+		\caption{Valores de pH nos respectivos volumes de NaOH}
+		\label{demo-table}
+		\begin{tabular}{rp{5cm}rp{5cm}}\toprule
 			& \textbf{pH} & \textbf{Volume (L)} \\ \midrule			
-			& 2.87848000000 & 0.00000000000 \\ 
-			& 1.75740000000	& 0.00005000000 \\ 
-			& 2.05886000000	& 0.00010000000 \\
-			& 2.23539000000	& 0.00015000000 \\
-			& 2.36076000000	& 0.00020000000 \\
+			& 2.87848000 & 0.00000000 \\ 
+			& 1.75740000 & 0.00005000 \\ 
+			& 2.05886000 & 0.00010000 \\
+			& 2.23539000 & 0.00015000 \\
+			& 2.36076000 & 0.00020000 \\
 			& ... & ... \\
-			& 12.61556000000 & 0.12025000000 \\
-			& 12.61574000000 & 0.12030000000 \\
-			& 12.61592000000 & 0.12035000000 \\
-			& 12.61610000000 & 0.12040000000 \\
-			& 12.61628000000 & 0.12045000000 \\			
+			& 12.61556000 & 0.12025000 \\
+			& 12.61574000 & 0.12030000 \\
+			& 12.61592000 & 0.12035000 \\
+			& 12.61610000 & 0.12040000 \\
+			& 12.61628000 & 0.12045000 \\
 			\bottomrule
 		\end{tabular}
 	\end{center}
 \end{table}
 
-
-
-%
-%
-%\begin{table}[H]
-%	\begin{center}
-%		\begin{tabular}{lp{5cm}lp{10cm}}\toprule
-%			& pH & Volume & \\ 
-%			\midrule			
-%			& 2.87848000000	& 0.00000000000 & \\
-%			& 1.75740000000	& 0.00005000000 & \\ 
-%			& 2.05886000000	& 0.00010000000 & \\
-%			& 2.23539000000	& 0.00015000000 & \\
-%			& 2.36076000000	& 0.00020000000 & \\
-%			& ... & ... & \\
-%			& 12.61556000000	& 0.12025000000 & \\
-%			& 12.61574000000	& 0.12030000000 & \\
-%			& 12.61592000000	& 0.12035000000 & \\
-%			& 12.61610000000	& 0.12040000000 & \\
-%			& 12.61628000000	& 0.12045000000 & \\
-%			\bottomrule
-%		\end{tabular}
-%	\end{center}
-%\end{table}
 
 \section{Gráfico}
 
@@ -276,6 +305,7 @@ O programa toma como referência os dados para titulação da seção 3 e calcul
 	\caption[Curva de titulação]{}
 	\label{fig:curvadetitulacaoacacetico}
 \end{figure}
+
 
 
 
