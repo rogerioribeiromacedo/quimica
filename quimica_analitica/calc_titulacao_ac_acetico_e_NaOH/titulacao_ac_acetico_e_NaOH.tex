@@ -37,15 +37,12 @@
 \usepackage{subcaption}
 \usepackage{siunitx}
 
-% draw a frame around given text
-\newcommand{\framedtext}[1]{%
-	\par%
-	\noindent\fbox{%
-		\parbox{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{#1}%
-	}%
-}
-
-
+\usepackage{fancyhdr}
+\fancyhf{} % limpa os cabecalhos e rodapés
+\fancyhead[C]{Titulação de Ácido Acético com Hidróxido de Sódio} % define o cabeçalho personalizado
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyfoot[C]{\thepage}
+\pagestyle{fancy} % sem definir esse comando, o cabeçalho personalizado não é exibido
 
 \begin{document}
 	\maketitle
@@ -108,12 +105,8 @@ O valor do Ka é considerado para a realização do cálculo, e este é calculad
 Assim:
 \begin{fleqn}
 \begin{align*}
-	& Ka = \frac{x \times x}{[HAc]} \\
-	& Ka = \frac{x^{2}}{[HAc]} \\
-	& x^{2} = Ka \times [HAc] \\
-	& x = \sqrt{Ka \times [HAc]} \\
-	& x = [H_{3}O^{+}] = \sqrt{(1,75 \times 10^{-5}) \times 0,100} \\
-	& x = [H_{3}O^{+}] = 1,32 \times 10^{-3}
+	& Ka = \frac{x \times x}{[HAc]} \longrightarrow	Ka = \frac{x^{2}}{[HAc]} \rightarrow x^{2} = Ka \times [HAc] \longrightarrow	 x = \sqrt{Ka \times [HAc]} \\ \\
+	& x = [H_{3}O^{+}] = \sqrt{(1,75 \times 10^{-5}) \times 0,100} \longrightarrow	\mathbf{x = [H_{3}O^{+}] = 1,32 \times 10^{-3}}
 \end{align*}
 \end{fleqn}
 O valor do pH:
@@ -237,7 +230,7 @@ Para calcular a concentração do sal, que será a mesma do acetato, é preciso 
 
 \begin{fleqn}
 	\begin{align*}
-		&[NaAc] = \frac{ (C_{NaOH} \times V_{NaOH}) }{ (V_{HAc} + V_{NaOH}) } = \frac{ (0,1 \times 0,05) }{ (0,05 + 0,05) } \rightarrow \mathbf{[NaAc] = 5,0 \times 10^-2 \text{ \textbf{mol}} \times L^{-1}}
+		&[NaAc] = \frac{ (C_{NaOH} \times V_{NaOH}) }{ (V_{HAc} + V_{NaOH}) } = \frac{ (0,1 \times 0,05) }{ (0,05 + 0,05) } \longrightarrow	 \mathbf{[NaAc] = 5,0 \times 10^-2 \text{ \textbf{mol}} \times L^{-1}}
 	\end{align*}
 \end{fleqn}
 
@@ -245,8 +238,8 @@ O próximo passo é calcular o valor do Kb:
 
 \begin{fleqn}
 	\begin{align*}
-		&Kw = Ka \times Kb \rightarrow (1,0 \times 10^{-14}) = (1,75 \times 10^{-5}) \times Kb \\ \\
-		&Kb = \frac{1,0 \times 10^{-14}}{1,75 \times 10^{-5}} \rightarrow \mathbf{Kb = 5,71 \times 10^{-10}}
+		&Kw = Ka \times Kb \longrightarrow	 (1,0 \times 10^{-14}) = (1,75 \times 10^{-5}) \times Kb \\ \\
+		&Kb = \frac{1,0 \times 10^{-14}}{1,75 \times 10^{-5}} \longrightarrow	 \mathbf{Kb = 5,71 \times 10^{-10}}
 	\end{align*}
 \end{fleqn}
 
@@ -255,7 +248,7 @@ Finalizado com o cálculo da $[OH^{-}]$ e consequentemente o valor do pH no pont
 \begin{fleqn}
 	\begin{align*}
 		&[OH^{-}] = \sqrt{Kb \times C_{NaAc}} = \sqrt{(5,71 \times 10^{-10}) \times (5,0 \times 10^{-2})} \\
-		&[OH^{-}] = 5,34 \times 10^{-6} \rightarrow pOH = 5,27 \rightarrow \textbf{pH = 8,73}
+		&[OH^{-}] = 5,34 \times 10^{-6} \longrightarrow	 pOH = 5,27 \longrightarrow	 \textbf{pH = 8,73}
 	\end{align*}
 \end{fleqn}
 
@@ -265,12 +258,12 @@ Neste ponto todo o ácido foi neutralizado, portanto, passamos a ter um excesso 
 \begin{fleqn}
 	\begin{align*}
 		&[OH^{-}] = \frac{ (C_{NaOH} \times V_{NaOH}) - (C_{HAc} \times V_{HAc}) }{ (V_{NaOH} \times V_{HAC}) } = \frac{ (0,1 \times 0,0510) - (0,1 \times 0,05) }{ (0,0510 + 0,05) } \\ \\	
-		&[OH^{-}] = 9,99 \times 10^{-4} \rightarrow pOH = 3,00 \rightarrow \textbf{pH = 10,00}
+		&[OH^{-}] = 9,99 \times 10^{-4} \longrightarrow	 pOH = 3,00 \longrightarrow	 \textbf{pH = 10,00}
 	\end{align*}
 \end{fleqn}
 
 \section{Curva de titulação}
-A curva de titulação (Figura \ref{curvadetitulacaoacacetico}) é resultado de programa escrito em Python, que, utilizando os passos descritos na seção \textbf{Etapas de titulação}, produziu os dados necessários para sua construção. \\
+A curva de titulação (Figura \ref{fig:curvasdetitulacaoacaceticoehidroxidodesodio}) é resultado de programa escrito em Python, que, utilizando os passos descritos na seção \textbf{Etapas de titulação}, produziu os dados necessários para sua construção. \\
 
 O programa toma como referência os dados para titulação da seção 3 e calcula o pH considerando a variação de volume do NaOH de 0,00 mL até 120 mL. Na Tabela \ref{demo-table} podemos ver os primeiros e últimos valores deste cálculo:
 
@@ -280,33 +273,43 @@ O programa toma como referência os dados para titulação da seção 3 e calcul
 		\label{demo-table}
 		\begin{tabular}{rp{5cm}rp{5cm}}\toprule
 			& \textbf{pH} & \textbf{Volume (L)} \\ \midrule			
-			& 2.87848000 & 0.00000000 \\ 
-			& 1.75740000 & 0.00005000 \\ 
-			& 2.05886000 & 0.00010000 \\
-			& 2.23539000 & 0.00015000 \\
-			& 2.36076000 & 0.00020000 \\
+			0 & 2.87848000 & 0.00000000 \\ 
+			1 & 1.75740000 & 0.00005000 \\ 
+			2 & 2.05886000 & 0.00010000 \\
+			3 & 2.23539000 & 0.00015000 \\
+			4 & 2.36076000 & 0.00020000 \\
 			& ... & ... \\
-			& 12.61556000 & 0.12025000 \\
-			& 12.61574000 & 0.12030000 \\
-			& 12.61592000 & 0.12035000 \\
-			& 12.61610000 & 0.12040000 \\
-			& 12.61628000 & 0.12045000 \\
+			2405 & 12.61556000 & 0.12025000 \\
+			2406 & 12.61574000 & 0.12030000 \\
+			2407 & 12.61592000 & 0.12035000 \\
+			2408 & 12.61610000 & 0.12040000 \\
+			2409 & 12.61628000 & 0.12045000 \\
 			\bottomrule
 		\end{tabular}
 	\end{center}
 \end{table}
 
-
 \section{Gráfico}
+Abaixo pode-se visualizar o gráfico resultante dos cálculos. Nele, marcado com linha pontinhada, temos os valores de:
+
+\begin{table}[H]
+	\begin{center}
+		\caption{Volume equivalência e pH}
+		\label{tabela_vol_eq_e_pH}\textbf{}
+		\begin{tabular}{lp{5cm}lp{10cm}}\toprule
+			\textbf{Volume de equivalência} & \textbf{pH} \\ \midrule
+			50,00 mL & 8.728 \\ 
+			\bottomrule
+		\end{tabular}
+	\end{center}
+\end{table}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.99\linewidth]{../curva_de_titulacao_ac_acetico}
-	\caption[Curva de titulação]{}
-	\label{fig:curvadetitulacaoacacetico}
+	\includegraphics[width=0.99\linewidth]{curvas_de_titulacao_ac_acetico_e_hidroxido_de_sodio}
+	\caption[Curva de Titulação]{}
+	\label{fig:curvasdetitulacaoacaceticoehidroxidodesodio}
 \end{figure}
-
-
 
 
 \end{document}
