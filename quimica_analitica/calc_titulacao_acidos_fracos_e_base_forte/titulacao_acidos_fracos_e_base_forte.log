@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.12)  22 JUN 2024 10:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.9.12)  24 JUN 2024 08:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,33 +6,32 @@ entering extended mode
 (titulacao_acidos_fracos_e_base_forte.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-03-30>
-(C:\Program Files\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
-\c@chapter=\count186
-\c@section=\count187
-\c@subsection=\count188
-\c@subsubsection=\count189
-\c@paragraph=\count190
-\c@subparagraph=\count191
-\c@figure=\count192
-\c@table=\count193
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
 (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2023/03/28 3.87 The Babel package
-\babel@savecnt=\count194
+\babel@savecnt=\count193
 \U@D=\dimen141
 \l@unhyphenated=\language79
 
 (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count195
+\bbl@dirlevel=\count194
 
 *************************************
 * Local config file bblopts.cfg used
@@ -52,8 +51,8 @@ Package babel Info: Importing font and identification data for portuguese
 (C:\Program Files\MiKTeX\tex/latex/xymtex\chemist.sty
 Package `chemist' (ver5.01) <June 6, 2013> [SF]
 chemist.sty ver5.01 (for LaTeX2e) 2013/06/06[SF]
-\c@compd=\count196
-\c@deriv=\count197
+\c@compd=\count195
+\c@deriv=\count196
 \reactarrowsep=\dimen142
 \verbatimleftmargin=\dimen143
 \verbatimbaselineskip=\dimen144
@@ -63,14 +62,14 @@ chemist.sty ver5.01 (for LaTeX2e) 2013/06/06[SF]
 \hwgr@d=\dimen148
 \vsepgr@d=\dimen149
 \hsepgr@d=\dimen150
-\nrep=\count198
-\nrepmax=\count199
+\nrep=\count197
+\nrepmax=\count198
 \ybaselineshift=\dimen151
 \tbaselineshift=\dimen152
 \@savetbaselineshift=\dimen153
 LaTeX Info: Redefining \rm on input line 788.
 LaTeX Info: Redefining \mathversion on input line 892.
-\c@mv@chem=\count266
+\c@mv@chem=\count199
 LaTeX Font Info:    Encoding `OML' has changed to `OT1' for symbol font
 (Font)              `letters' in the math version `chem' on input line 965.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `chem'
@@ -79,7 +78,7 @@ LaTeX Font Info:    Overwriting symbol font `operators' in version `chem'
 (Font)                  OT1/cmr/m/n --> OT1/cmr/m/n on input line 965.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `chem'
 (Font)                  OMS/cmsy/m/n --> OMS/cmsy/m/n on input line 965.
-\c@mv@boldchem=\count267
+\c@mv@boldchem=\count266
 LaTeX Font Info:    Overwriting symbol font `operators' in version `boldchem'
 (Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 965.
 LaTeX Font Info:    Encoding `OML' has changed to `OT1' for symbol font
@@ -89,7 +88,7 @@ LaTeX Font Info:    Overwriting symbol font `letters' in version `boldchem'
 (Font)                  OML/cmm/m/it --> OT1/cmr/b/n on input line 965.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldchem'
 (Font)                  OMS/cmsy/m/n --> OMS/cmsy/b/n on input line 965.
-\TestCount=\count268
+\TestCount=\count267
 (C:\Program Files\MiKTeX\tex/latex/xymtex\assurechemist.sty
 Part of XyMTeX for Drawing Chemical Structural Formulas. Version 5.00
  -- Released October 01, 2010 by Shinsaku Fujita
@@ -161,14 +160,14 @@ tex
 \pgf@yd=\dimen167
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count269
-\c@pgf@countb=\count270
-\c@pgf@countc=\count271
-\c@pgf@countd=\count272
+\c@pgf@counta=\count268
+\c@pgf@countb=\count269
+\c@pgf@countc=\count270
+\c@pgf@countd=\count271
 \t@pgf@toka=\toks21
 \t@pgf@tokb=\toks22
 \t@pgf@tokc=\toks23
-\pgf@sys@id@count=\count273
+\pgf@sys@id@count=\count272
  (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -182,8 +181,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count274
-\pgfsyssoftpath@bigbuffer@items=\count275
+\pgfsyssoftpath@smallbuffer@items=\count273
+\pgfsyssoftpath@bigbuffer@items=\count274
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -214,7 +213,7 @@ Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen168
-\pgfmath@count=\count276
+\pgfmath@count=\count275
 \pgfmath@box=\box52
 \pgfmath@toks=\toks24
 \pgfmath@stack@operand=\toks25
@@ -234,7 +233,7 @@ tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
 cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count277
+\c@pgfmathroundto@lastzeros=\count276
 ))
 (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
@@ -270,7 +269,7 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box53
 \pgf@hbox=\box54
 \pgf@layerbox@main=\box55
-\pgf@picture@serial@count=\count278
+\pgf@picture@serial@count=\count277
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
 x
@@ -297,8 +296,8 @@ File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen192
-\pgf@sys@shading@range@num=\count279
-\pgf@shadingcount=\count280
+\pgf@sys@shading@range@num=\count278
+\pgf@shadingcount=\count279
 )
 (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
@@ -350,7 +349,7 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
 tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count281
+\pgf@plot@mark@count=\count280
 \pgfplotmarksize=\dimen197
 )
 \tikz@lastx=\dimen198
@@ -365,17 +364,17 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@figbox@bg=\box59
 \tikz@tempbox=\box60
 \tikz@tempbox@bg=\box61
-\tikztreelevel=\count282
-\tikznumberofchildren=\count283
-\tikznumberofcurrentchild=\count284
-\tikz@fig@count=\count285
+\tikztreelevel=\count281
+\tikznumberofchildren=\count282
+\tikznumberofcurrentchild=\count283
+\tikz@fig@count=\count284
  (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count286
-\pgfmatrixcurrentcolumn=\count287
-\pgf@matrix@numberofcolumns=\count288
+\pgfmatrixcurrentrow=\count285
+\pgfmatrixcurrentcolumn=\count286
+\pgf@matrix@numberofcolumns=\count287
 )
-\tikz@expandcount=\count289
+\tikz@expandcount=\count288
 
 (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
 rytopaths.code.tex
@@ -400,14 +399,14 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count290
+\inf@bad=\count289
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count291
-\leftroot@=\count292
+\uproot@=\count290
+\leftroot@=\count291
 LaTeX Info: Redefining \overline on input line 399.
 LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count293
-\DOTSCASE@=\count294
+\classnum@=\count292
+\DOTSCASE@=\count293
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
@@ -420,20 +419,20 @@ LaTeX Info: Redefining \Bigg on input line 725.
 \big@size=\dimen264
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count295
+\macc@depth=\count294
 LaTeX Info: Redefining \bmod on input line 905.
 LaTeX Info: Redefining \pmod on input line 910.
 LaTeX Info: Redefining \smash on input line 940.
 LaTeX Info: Redefining \relbar on input line 970.
 LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count296
+\c@MaxMatrixCols=\count295
 \dotsspace@=\muskip16
-\c@parentequation=\count297
-\dspbrk@lvl=\count298
+\c@parentequation=\count296
+\dspbrk@lvl=\count297
 \tag@help=\toks30
-\row@=\count299
-\column@=\count300
-\maxfields@=\count301
+\row@=\count298
+\column@=\count299
+\maxfields@=\count300
 \andhelp@=\toks31
 \eqnshift@=\dimen265
 \alignsep@=\dimen266
@@ -454,7 +453,7 @@ Package: expl3 2023-03-30 L3 programming layer (loader)
 
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count302
+\l__color_backend_stack_int=\count301
 \l__pdf_internal_box=\box64
 ))
 (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
@@ -469,7 +468,7 @@ Package: xparse 2023-02-02 L3 Experimental document command parser
 (C:\Program Files\MiKTeX\tex/latex/l3packages/xtemplate\xtemplate.sty
 Package: xtemplate 2023-02-02 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen271
-\l__xtemplate_tmp_int=\count303
+\l__xtemplate_tmp_int=\count302
 \l__xtemplate_tmp_muskip=\muskip17
 \l__xtemplate_tmp_skip=\skip53
 )
@@ -510,9 +509,9 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions
 \l__chemformula_tmpa_dim=\dimen281
 \l__chemformula_tmpb_dim=\dimen282
 \l__chemformula_tmpc_dim=\dimen283
-\l__chemformula_tmpa_int=\count304
-\l__chemformula_tmpb_int=\count305
-\l__chemformula_tmpc_int=\count306
+\l__chemformula_tmpa_int=\count303
+\l__chemformula_tmpb_int=\count304
+\l__chemformula_tmpc_int=\count305
 \l__chemformula_tmpa_box=\box67
 \l__chemformula_tmpb_box=\box68
 \l__chemformula_arrow_length_dim=\dimen284
@@ -546,8 +545,8 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions
 \l__chemformula_stoich_space_skip=\skip57
 \l__chemformula_math_space_skip=\skip58
 \l__chemformula_additions_symbol_space_skip=\skip59
-\l__chemformula_count_tokens_int=\count307
-\g__chemformula_lewis_int=\count308
+\l__chemformula_count_tokens_int=\count306
+\g__chemformula_lewis_int=\count307
 \l__chemformula_arrow_arg_i_box=\box69
 \l__chemformula_arrow_arg_ii_box=\box70
 \l__chemformula_superscript_box=\box71
@@ -566,12 +565,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen319
 \cmidrulekern=\dimen320
 \defaultaddspace=\dimen321
-\@cmidla=\count309
-\@cmidlb=\count310
+\@cmidla=\count308
+\@cmidlb=\count309
 \@aboverulesep=\dimen322
 \@belowrulesep=\dimen323
-\@thisruleclass=\count311
-\@lastruleclass=\count312
+\@thisruleclass=\count310
+\@lastruleclass=\count311
 \@thisrulewidth=\dimen324
 )
 (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
@@ -581,7 +580,7 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 )
 (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count313
+\c@float@type=\count312
 \float@exts=\toks36
 \float@box=\box73
 \@float@everytoks=\toks37
@@ -596,9 +595,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count314
-\Gm@cntv=\count315
-\c@Gm@tempcnt=\count316
+\Gm@cnth=\count313
+\Gm@cntv=\count314
+\c@Gm@tempcnt=\count315
 \Gm@bindingoffset=\dimen325
 \Gm@wd@mp=\dimen326
 \Gm@odd@mp=\dimen327
@@ -620,26 +619,26 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@outerparindent=\dimen333
 \enit@toks=\toks39
 \enit@inbox=\box75
-\enit@count@id=\count317
-\enitdp@description=\count318
+\enit@count@id=\count316
+\enitdp@description=\count317
 )
 (C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip63
-\multirow@cntb=\count319
+\multirow@cntb=\count318
 \multirow@dima=\skip64
 \bigstrutjot=\dimen334
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\multicol.sty
 Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
-\c@tracingmulticols=\count320
+\c@tracingmulticols=\count319
 \mult@box=\box76
 \multicol@leftmargin=\dimen335
-\c@unbalance=\count321
-\c@collectmore=\count322
-\doublecol@number=\count323
-\multicoltolerance=\count324
-\multicolpretolerance=\count325
+\c@unbalance=\count320
+\c@collectmore=\count321
+\doublecol@number=\count322
+\multicoltolerance=\count323
+\multicolpretolerance=\count324
 \full@width=\dimen336
 \page@free=\dimen337
 \premulticols=\dimen338
@@ -689,15 +688,15 @@ Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
 \@tempa=\box116
 \@tempa=\box117
 \@tempa=\box118
-\c@minrows=\count326
-\c@columnbadness=\count327
-\c@finalcolumnbadness=\count328
+\c@minrows=\count325
+\c@columnbadness=\count326
+\c@finalcolumnbadness=\count327
 \last@try=\dimen341
 \multicolovershoot=\dimen342
 \multicolundershoot=\dimen343
 \mult@nat@firstbox=\box119
 \colbreak@box=\box120
-\mc@col@check@num=\count329
+\mc@col@check@num=\count328
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
@@ -730,21 +729,21 @@ Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
 
 (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count330
-\calc@Bcount=\count331
+\calc@Acount=\count329
+\calc@Bcount=\count330
 \calc@Adimen=\dimen344
 \calc@Bdimen=\dimen345
 \calc@Askip=\skip70
 \calc@Bskip=\skip71
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count332
+\calc@Ccount=\count331
 \calc@Cskip=\skip72
 )
 (C:\Program Files\MiKTeX\tex/latex/mathtools\mhsetup.sty
 Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
-\g_MT_multlinerow_int=\count333
+\g_MT_multlinerow_int=\count332
 \l_MT_multwidth_dim=\dimen346
 \origjot=\skip73
 \l_MT_shortvdotswithinadjustabove_dim=\dimen347
@@ -807,11 +806,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count334
+\c@section@level=\count333
 )
 \@linkdim=\dimen355
-\Hy@linkcounter=\count335
-\Hy@pagecounter=\count336
+\Hy@linkcounter=\count334
+\Hy@pagecounter=\count335
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
@@ -824,7 +823,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 (C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count337
+\Hy@SavedSpaceFactor=\count336
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
@@ -838,7 +837,7 @@ Package hyperref Info: Plain pages OFF on input line 4192.
 Package hyperref Info: Backreferencing OFF on input line 4197.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4425.
-\c@Hy@tempcnt=\count338
+\c@Hy@tempcnt=\count337
 
 (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip20
@@ -854,7 +853,7 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count339
+\Fld@menulength=\count338
 \Field@Width=\dimen357
 \Fld@charsize=\dimen358
 Package hyperref Info: Hyper figures OFF on input line 6042.
@@ -869,9 +868,9 @@ Package hyperref Info: PDF/A mode OFF on input line 6072.
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count340
-\c@Item=\count341
-\c@Hfootnote=\count342
+\Hy@abspage=\count339
+\c@Item=\count340
+\c@Hfootnote=\count341
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
@@ -883,8 +882,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count343
-\c@bookmark@seq@number=\count344
+\Fld@listcount=\count342
+\c@bookmark@seq@number=\count343
 
 (C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
@@ -912,34 +911,34 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen366
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count345
-\c@continuedfloat=\count346
+\c@caption@flags=\count344
+\c@continuedfloat=\count345
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 )
 (C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count347
+\c@subfigure=\count346
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count348
+\c@subtable=\count347
 )
 (C:\Program Files\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2023-09-01 v3.3.6 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count349
-\l__siunitx_number_exponent_fixed_int=\count350
-\l__siunitx_number_min_decimal_int=\count351
-\l__siunitx_number_min_integer_int=\count352
-\l__siunitx_number_round_precision_int=\count353
-\l__siunitx_number_lower_threshold_int=\count354
-\l__siunitx_number_upper_threshold_int=\count355
-\l__siunitx_number_group_first_int=\count356
-\l__siunitx_number_group_size_int=\count357
-\l__siunitx_number_group_minimum_int=\count358
+\l__siunitx_number_uncert_offset_int=\count348
+\l__siunitx_number_exponent_fixed_int=\count349
+\l__siunitx_number_min_decimal_int=\count350
+\l__siunitx_number_min_integer_int=\count351
+\l__siunitx_number_round_precision_int=\count352
+\l__siunitx_number_lower_threshold_int=\count353
+\l__siunitx_number_upper_threshold_int=\count354
+\l__siunitx_number_group_first_int=\count355
+\l__siunitx_number_group_size_int=\count356
+\l__siunitx_number_group_minimum_int=\count357
 \l__siunitx_angle_tmp_dim=\dimen367
 \l__siunitx_angle_marker_box=\box122
 \l__siunitx_angle_unit_box=\box123
-\l__siunitx_compound_count_int=\count359
+\l__siunitx_compound_count_int=\count358
 
 (C:\Program Files\MiKTeX\tex/latex/translations\translations.sty
 Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
@@ -947,7 +946,7 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 
 (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count360
+\etb@tempcnta=\count359
 ))
 \l__siunitx_table_tmp_box=\box124
 \l__siunitx_table_tmp_dim=\dimen368
@@ -959,9 +958,9 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \l__siunitx_table_after_box=\box129
 \l__siunitx_table_before_dim=\dimen370
 \l__siunitx_table_carry_dim=\dimen371
-\l__siunitx_unit_tmp_int=\count361
-\l__siunitx_unit_position_int=\count362
-\l__siunitx_unit_total_int=\count363
+\l__siunitx_unit_tmp_int=\count360
+\l__siunitx_unit_position_int=\count361
+\l__siunitx_unit_total_int=\count362
 
 (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
@@ -986,40 +985,44 @@ Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 \f@nch@O@olf=\skip84
 \f@nch@O@orf=\skip85
 )
+(C:\Program Files\MiKTeX\tex/latex/titlesec\titletoc.sty
+Package: titletoc 2023/10/27 v2.16 TOC entries
+\ttl@leftsep=\dimen374
+)
 (titulacao_acidos_fracos_e_base_forte.aux)
 \openout1 = `titulacao_acidos_fracos_e_base_forte.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
-\scratchdimen=\dimen374
+\scratchcounter=\count363
+\scratchdimen=\dimen375
 \scratchbox=\box132
-\nofMPsegments=\count365
-\nofMParguments=\count366
+\nofMPsegments=\count364
+\nofMParguments=\count365
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count367
-\MPscratchDim=\dimen375
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
+\MPscratchCnt=\count366
+\MPscratchDim=\dimen376
+\MPnumerator=\count367
+\makeMPintoPDFobject=\count368
 \everyMPtoPDFconversion=\toks48
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1063,7 +1066,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 46.
+Package hyperref Info: Link coloring OFF on input line 47.
 (titulacao_acidos_fracos_e_base_forte.out)
 (titulacao_acidos_fracos_e_base_forte.out)
 \@outlinefile=\write5
@@ -1072,43 +1075,44 @@ Package hyperref Info: Link coloring OFF on input line 46.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package translations Info: no dictionary file `translations-basic-dictionary-po
-rtuges.trsl' found. on input line 46.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+rtuges.trsl' found. on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{C:/Users/rogerio/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+)
 (titulacao_acidos_fracos_e_base_forte.toc)
 \tf@toc=\write6
 \openout6 = `titulacao_acidos_fracos_e_base_forte.toc'.
 
+ [1
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.50 \newpage
-              [1
+{C:/Users/rogerio/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (titulacao
+_acidos_fracos_e_base_forte.lof)
+\tf@lof=\write7
+\openout7 = `titulacao_acidos_fracos_e_base_forte.lof'.
 
-]
-Cap\'{\i }tulo 1.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-[2
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
-]
+[2] (titulacao_acidos_fracos_e_base_forte.lot)
+\tf@lot=\write8
+\openout8 = `titulacao_acidos_fracos_e_base_forte.lot'.
+
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 15.71667pt, for example:
@@ -1118,9 +1122,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [3]
-Overfull \hbox (6.4343pt too wide) in paragraph at lines 148--150
-[]\OT1/cmr/m/n/12 O c^^Salculo do pH an-tes do ponto de equi-val^encia faz uso 
-da \OT1/cmr/bx/n/12 Equa^^Xc~ao de Henderson-
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
+
+ []
+
+
+Overfull \hbox (3.8702pt too wide) in paragraph at lines 61--62
+\OT1/cmr/m/n/12 dos da-dos. O mesmo pode ser en-con-trado no link []https://git
+hub.com/rogerioribeiromacedo[] 
  []
 
 
@@ -1141,13 +1150,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [5]
-
-LaTeX Warning: Reference `fig:curvasdetitulacaoacaceticoehidroxidodesodio' on p
-age 6 undefined on input line 292.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-
+Overfull \hbox (6.4343pt too wide) in paragraph at lines 159--161
+[]\OT1/cmr/m/n/12 O c^^Salculo do pH an-tes do ponto de equi-val^encia faz uso 
+da \OT1/cmr/bx/n/12 Equa^^Xc~ao de Henderson-
  []
 
 
@@ -1167,37 +1172,188 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
-[7] (titulacao_acidos_fracos_e_base_forte.aux)
+[7]
 
-LaTeX Warning: There were undefined references.
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[8]
+<curva/curva_de_titulacao_ácido_benzoico.png, id=158, 1034.32825pt x 703.33163
+pt>
+File: curva/curva_de_titulacao_ácido_benzoico.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_benzoico.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_benzoico.png  used on 
+input line 348.
+(pdftex.def)             Requested size: 450.69417pt x 306.46191pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[9]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[10 <./curva/curva_de_titulacao_ácido_benzoico.png>]
+<curva/curva_de_titulacao_ácido_acético.png, id=169, 1034.32825pt x 703.33163
+pt>
+File: curva/curva_de_titulacao_ácido_acético.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_acético.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_acético.png  used on 
+input line 386.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+File: curva/curva_de_titulacao_ácido_benzoico.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_benzoico.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_benzoico.png  used on 
+input line 392.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+<curva/curva_de_titulacao_ácido_ciânico.png, id=170, 1034.32825pt x 703.33163
+pt>
+File: curva/curva_de_titulacao_ácido_ciânico.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_ciânico.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_ciânico.png  used on 
+input line 398.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+<curva/curva_de_titulacao_ácido_fluorídrico.png, id=171, 1034.32825pt x 703.3
+3163pt>
+File: curva/curva_de_titulacao_ácido_fluorídrico.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_fluorídrico.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_fluorídrico.png  used
+ on input line 404.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+<curva/curva_de_titulacao_ácido_fórmico.png, id=172, 1034.32825pt x 703.33163
+pt>
+File: curva/curva_de_titulacao_ácido_fórmico.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_fórmico.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_fórmico.png  used on 
+input line 410.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+<curva/curva_de_titulacao_ácido_hidrazoico.png, id=173, 1034.32825pt x 703.331
+63pt>
+File: curva/curva_de_titulacao_ácido_hidrazoico.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_hidrazoico.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_hidrazoico.png  used o
+n input line 416.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 384--420
+[][] []
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 384--420
+[] []
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 384--420
+[] [] 
+ []
+
+<curva/curva_de_titulacao_ácido_hidrociâncio.png, id=174, 1034.32825pt x 703.
+33163pt>
+File: curva/curva_de_titulacao_ácido_hidrociâncio.png Graphic file (type png)
+
+<use curva/curva_de_titulacao_ácido_hidrociâncio.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_hidrociâncio.png  use
+d on input line 424.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+<curva/curva_de_titulacao_ácido_hipoiodoso.png, id=175, 1034.32825pt x 703.331
+63pt>
+File: curva/curva_de_titulacao_ácido_hipoiodoso.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_hipoiodoso.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_hipoiodoso.png  used o
+n input line 430.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+<curva/curva_de_titulacao_ácido_iodoacético.png, id=176, 1034.32825pt x 703.3
+3163pt>
+File: curva/curva_de_titulacao_ácido_iodoacético.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_iodoacético.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_iodoacético.png  used
+ on input line 436.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+<curva/curva_de_titulacao_ácido_nitroso.png, id=177, 1034.32825pt x 703.33163p
+t>
+File: curva/curva_de_titulacao_ácido_nitroso.png Graphic file (type png)
+<use curva/curva_de_titulacao_ácido_nitroso.png>
+Package pdftex.def Info: curva/curva_de_titulacao_ácido_nitroso.png  used on i
+nput line 442.
+(pdftex.def)             Requested size: 204.85846pt x 139.30087pt.
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 422--446
+[][] []
+ []
+
+
+Overfull \hbox (2.61108pt too wide) in paragraph at lines 422--446
+[] [] 
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[11 <./curva/curva_de_titulacao_ácido_acético.png> <./curva/curva_de_titulaca
+o_ácido_ciânico.png> <./curva/curva_de_titulacao_ácido_fluorídrico.png> <./
+curva/curva_de_titulacao_ácido_fórmico.png> <./curva/curva_de_titulacao_ácid
+o_hidrazoico.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.71667pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.71667pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
+
+[12 <./curva/curva_de_titulacao_ácido_hidrociâncio.png> <./curva/curva_de_tit
+ulacao_ácido_hipoiodoso.png> <./curva/curva_de_titulacao_ácido_iodoacético.p
+ng> <./curva/curva_de_titulacao_ácido_nitroso.png>]
+(titulacao_acidos_fracos_e_base_forte.aux)
 Package rerunfilecheck Info: File `titulacao_acidos_fracos_e_base_forte.out' ha
 s not changed.
-(rerunfilecheck)             Checksum: 53BA2FF0C28A3084633663E21A7BD7D6;3556.
+(rerunfilecheck)             Checksum: 6D8F4B6F37891D605072DF910943E884;3867.
  ) 
 Here is how much of TeX's memory you used:
- 30731 strings out of 476331
- 624300 string characters out of 5797574
+ 31034 strings out of 476331
+ 633600 string characters out of 5797574
  1871660 words of memory out of 5000000
- 50665 multiletter control sequences out of 15000+600000
- 522922 words of font info for 73 fonts, out of 8000000 for 9000
+ 50935 multiletter control sequences out of 15000+600000
+ 522663 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,12n,118p,503b,974s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,12n,118p,516b,952s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Pro
-gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/Mi
-KTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
-onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb>
-Output written on titulacao_acidos_fracos_e_base_forte.pdf (8 pages, 184058 byt
-es).
+m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
+8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy1
+0.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on titulacao_acidos_fracos_e_base_forte.pdf (12 pages, 1615872 b
+ytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
