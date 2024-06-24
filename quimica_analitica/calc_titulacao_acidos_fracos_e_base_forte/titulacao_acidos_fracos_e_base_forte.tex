@@ -1,0 +1,343 @@
+\documentclass[a4paper, 12pt]{report}
+\usepackage[portuguese]{babel}
+\usepackage{chemist}
+\usepackage{chemformula}
+\usepackage{booktabs}
+% Pacote para aceitar acentuação
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+% geometry, pacote para configurar as margens. 
+% padrão ABNT => lmargin=3cm,tmargin=3cm,rmargin=2cm,bmargin=2cm
+\usepackage[lmargin=3cm,tmargin=3cm,rmargin=2cm,bmargin=2cm]{geometry}
+
+% graphicx = usar imagem (\includegraphics), comment = texto em formato de comentário, enumitem = enumeração, multirow e multicol = uso de tabelas, indentf = identar primeira linha
+\usepackage{graphicx,xcolor,comment,enumitem,multirow,multicol,indentfirst}
+\setlength{\parindent}{1.25cm} % não identa a primeira linha
+
+% Pacotes para matemática
+\usepackage{amsmath, amssymb, amsthm, amsfonts,  mathtools, amstext, nccmath}
+\everymath{\displaystyle}
+
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+%
+% Título e autor do documento
+%
+\title{Química Analítica Quantitativa\\
+	\large{\textbf{\\Volumetria de Neutralização \\
+	Titulação de Ácidos Fracos com Base Forte (NaOH)}}
+}
+
+\author{Rogério Ribeiro Macêdo}
+\date{\today}
+
+\usepackage[font=scriptsize,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{siunitx}
+
+\usepackage{fancyhdr}
+\fancyhf{} % limpa os cabecalhos e rodapés
+\fancyhead[C]{Titulação de Ácidos Fracos com Base Forte (NaOH)} % define o cabeçalho personalizado
+\renewcommand{\footrulewidth}{0.5pt}
+\fancyfoot[C]{\thepage}
+\pagestyle{fancy} % sem definir esse comando, o cabeçalho personalizado não é exibido
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+\chapter{Titulação}
+O presente trabalho foi realizado objetivando aplicar a sequência de cálculos necessários à titulação de ácido fraco (titulado) com uma base forte, no caso estamos usando o hidróxido de sódio (titulante) como base forte. A partir dos cálculos o resultado final é a produção da curva de titulação. Lembrando que, para tal, por se tratar de um ácido fraco faz-se necessário a utilização da constante de dissociação do ácido (Ka). \\
+
+A curva de titulação será construída relacionando o volume adicionado de NaOH com o valor do pH resultante da titulaçao. 
+
+\section{Etapas da titulação}
+Antes de iniciar vale lembrar que o processo de titulação envolve basicamente 4 etapas e em cada uma delas o cálculo do pH é realizado considerando o contexto da titulação:
+
+\begin{description}
+	\item[\underline{Etapa 1}]: antes de iniciar a titulação \hfil \\ Neste ponto a solução contém apenas ácido acético. Portanto, o valor do pH é determinado pela dissociação do ácido.
+	\item[\underline{Etapa 2}]: antes de atingir o ponto de equivalência \hfil \\ Ainda há ácido para reagir, assim, o pH é determinado pelo sistema tampão.
+	\item[\underline{Etapa 3}]: no ponto de equivalência \hfil \\ O ponto de equivalência é o ponto onde todo o ácido reagiu com a base. O volume da base para isso é aquele que será determinado pelo volume de equivalência. O pH é determinado pela hidrólise do sal formado.
+	\item[\underline{Etapa 4}]: depois do ponto de equivalência \hfil \\ Há excesso de base. O pH é determinado através desse excesso. A hidrólise do sal contribui pouco nesse ponto, pois o excesso de base reprime esta reação.
+\end{description}
+
+\section{Lista de Ácidos}
+
+Foi realizado um levantamento de 10 ácidos (monopróticos) para que pudéssemos avaliar o comportamento da curva de titulação destes. Abaixo apresenta-se a lista de ácidos:
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{lp{5cm}lp{5cm}lp{5cm}lp{5cm}}\toprule
+			& \textbf{Ácido} & \textbf{Fórmula} & \textbf{Ka} & \textbf{pKa} \\ \midrule
+			& Ácido acético & \chemform{CH_{3}COOH} & $1,75 \times 10^{-5}$ & 4,756 \\
+			& Ácido benzoico & \chemform{C_{6}H_{5}CO_{2}H} & $6,25 \times 10^{-5}$ & 4,204 \\
+			& Ácido ciânico & \chemform{HCNO} & $3,50 \times 10^{-4}$ & 3,460 \\
+			& Ácido fórmico & \chemform{CH_{2}O_{2}} & $1,80 \times 10^{-4}$ & 3,750 \\
+			& Ácido hidrazoico & \chemform{HN_{3}}. & $2,50 \times 10^{-5}$ & 4,602 \\
+			& Ácido hidrociânico & \chemform{HCN} & $6,20 \times 10^{-10}$ & 9,207 \\
+			& Ácido fluorídrico & \chemform{HF} & $6,30 \times 10^{-4}$ & 3,200 \\
+			& Ácido iodoacético & \chemform{CH_{2}ICO_{2}H} & $ 6,60 \times 10^{-4}$ & 3,180 \\
+			& Ácido nitroso & \chemform{HNO_{2}} & $5,60 \times 10^{-4}$ & 3,252 \\
+			& Ácido hipoiodoso & \chemform{HIO} & $3,20 \times 10^{-11}$ & 10,495 \\
+			\bottomrule
+		\end{tabular}
+	\end{center}
+\end{table}
+
+
+\section{Dados para titulação}
+
+Tratando-se de um experimento teórico, optou-se por considerar os dados de concentração e volume abaixo descritos. Tais valores serão utilizados para a lista de ácidos apresentada acima.
+
+\begin{table}[H]
+	\begin{center}
+		\begin{tabular}{lp{5cm}lp{10cm}}\toprule
+			& \textbf{Ácido} & \textbf{Hidróxido de sódio} \\ \midrule			
+			Volume & 50,00 mL & - \\ 
+			Concentração & $0,100 \: mol \cdot L^{-1}$ & $0,100 \: mol \cdot L^{-1}$ \\ 
+			\bottomrule
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\section{Volume de equivalência}
+O volume de equivalência é o volume necessário de titulante que irá reagir completamente com o titulado. No caso, o volume de NaOH necessário para reagir completamente com o ácido. O cálculo é realizado usando a expressão\footnote{C: concentração; V: volume}:
+
+\begin{equation*}
+	V_{titulante} \times C_{titulante} = V_{titulado} \times C_{titulado}
+\end{equation*}
+
+Portanto, o volume necessário de NaOH que será necessário para neutralizar todo o ácido será de:
+\begin{fleqn}
+\begin{align*}
+	& V_{titulante} \times C_{titulante} = V_{titulado} \times C_{titulado} \\
+	& V_{titulante} \times 0,100 = 50,00 \times 0,100 \\
+	& V_{titulante} = 50,00 \text{ mL}
+\end{align*}
+\end{fleqn}
+
+No caso deste trabalho e como informado acima, a concentração do ácido e da base são as mesmas, portanto, mesmo sem realizar o cálculo já poderíamos prever que o volumen necessário de base para neutralizar completamente o ácido seria de 50,00 mL.
+
+\section{Cálculos}
+A partir deste ponto realizaremos os cálculos da titulação. Como o objetivo é construir a curva de titulação, os volumes que usaremos de NaOH serão pontuais. O conjunto de dados que será utilizado para a construção da curva pode ser encontrado no link: \href{https://github.com/rogerioribeiromacedo}{https://github.com/rogerioribeiromacedo/Chemistry}\footnote{https://github.com/rogerioribeiromacedo/Chemistry}
+
+\subsection{No ponto inicial (sem adição de NaOH)}
+O valor do Ka é considerado para a realização do cálculo, e este é calculado usando a expressão abaixo:
+\begin{fleqn}
+\begin{align*}
+	Ka = \frac{[H_{3}O^{+}] \times [Ac^{-}]}{[HAc]}
+\end{align*}
+\end{fleqn}
+Assim:
+\begin{fleqn}
+\begin{align*}
+	& Ka = \frac{x \times x}{[HAc]} \longrightarrow	Ka = \frac{x^{2}}{[HAc]} \rightarrow x^{2} = Ka \times [HAc] \longrightarrow	 x = \sqrt{Ka \times [HAc]} \\ \\
+	& x = [H_{3}O^{+}] = \sqrt{(1,75 \times 10^{-5}) \times 0,100} \longrightarrow	\mathbf{x = [H_{3}O^{+}] = 1,32 \times 10^{-3}}
+\end{align*}
+\end{fleqn}
+O valor do pH:
+\begin{fleqn}
+\begin{align*}
+	& pH = - \log [H_{3}O^{+}] \\
+	& pH = - \log {1,32 \times 10^{-3}} \\
+	& \textbf{pH = 2,88}
+\end{align*}
+\end{fleqn}
+
+\subsection{Antes do ponto de equivalência}
+O cálculo do pH antes do ponto de equivalência faz uso da \textbf{Equação de Henderson-Hasselbalch}. Esta equação faz o relacionamento do pH de uma solução tampão, com o pKa, as concentrações da forma ácida (HAc) e da base conjugada ($Ac^{-}$). Abaixo a equação a ser utilizada:
+\begin{fleqn}
+\begin{align*}
+	pH = pKa + \frac{[Ac^{-}]}{[HAc]}
+\end{align*}
+\end{fleqn}
+Portanto, precisamos do pKa do ácido acético:
+\begin{fleqn}
+\begin{align*}
+	& pKa = -log [Ka] \\
+	& pKa = -log (1,75 \times 10^{-5}) \\
+	& \textbf{pka = 4,757}
+\end{align*}
+\end{fleqn}
+
+\subsection{Após adição de 0,05 mL (0,00005 L) de NaOH}
+Esse volume representa o volume de uma única gota de NaOH adicionada na solução do titulante.
+
+\begin{fleqn}
+\begin{align*}
+	& [Ac^{-}] = \frac{ V_{NaOH} \times C_{NaOH} }{ V_{HAc} + V_{NaOH} } = \frac{0,00005 \times 0,1}{0,05 + 0,00005} \\ \\
+	& \mathbf{[Ac^{-}] = 0,0001 \text{ \textbf{mol}} \times L^{-1}}
+\end{align*}
+\end{fleqn}
+
+\begin{fleqn}
+\begin{align*}
+	& [HAc] = \frac{ (C_{HAc} \times V_{HAc}) - (C_{NaOH} \times V_{NaOH}) }{ (V_{HAc} + V_{NaOH}) } = \frac{ (0,1 \times 0,05) - (0,1 \times 0,00005) }{ (0,05 + 0,00005) }\\ \\
+	& \mathbf{[HAc] = 0,0998 \text{ \textbf{mol}} \times L^{-1}}
+\end{align*}
+\end{fleqn}
+
+\begin{fleqn}
+\begin{align*}
+ 	& pH = pKa + \log \frac{[Ac^{-}]}{[HAc]} = 4,757 + \log \frac{0,0001}{0,0998} \\
+	& \textbf{pH = 1,758}
+\end{align*}
+\end{fleqn}
+
+\subsection{Após adição de 0,1 mL (0,0001 L) de NaOH}
+\begin{fleqn}
+	\begin{align*}
+		& [Ac^{-}] = \frac{ V_{NaOH} \times C_{NaOH} }{ V_{HAc} + V_{NaOH} } = \frac{0,0001 \times 0,1}{0,05 + 0,0001} \\ \\
+		& \mathbf{[Ac^{-}] = 0,0001996 \text{ \textbf{mol}} \times L^{-1}}
+	\end{align*}
+\end{fleqn}
+
+\begin{fleqn}
+	\begin{align*}
+		& [HAc] = \frac{ (C_{HAc} \times V_{HAc}) - (C_{NaOH} \times V_{NaOH}) }{ (V_{HAc} + V_{NaOH}) } = \frac{ (0,1 \times 0,05) - (0,1 \times 0,0001) }{ (0,05 + 0,0001) }\\ \\
+		& \mathbf{[HAc] = 0,0996 \text{ \textbf{mol}} \times L^{-1}}
+	\end{align*}
+\end{fleqn}
+
+\begin{fleqn}
+	\begin{align*}
+		& pH = pKa + \log \frac{[Ac^{-}]}{[HAc]} = 4,757 + \log \frac{0,0001996}{0,0996} \\
+		& \textbf{pH = 2,0589}
+	\end{align*}
+\end{fleqn}
+
+\subsection{Após adição de 10,00 mL (0,0001 L) de NaOH}
+\begin{fleqn}
+	\begin{align*}
+		& [Ac^{-}] = \frac{ V_{NaOH} \times C_{NaOH} }{ V_{HAc} + V_{NaOH} } = \frac{0,1 \times 0,01}{0,05 + 0,01} \\ \\
+		& \mathbf{[Ac^{-}] = 1,67 \times 10^{-2} \text{ \textbf{mol}} \times L^{-1}}
+	\end{align*}
+\end{fleqn}
+
+\begin{fleqn}
+	\begin{align*}
+		& [HAc] = \frac{ (C_{HAc} \times V_{HAc}) - (C_{NaOH} \times V_{NaOH}) }{ (V_{HAc} + V_{NaOH}) } = \frac{ (0,1 \times 0,05) - (0,1 \times 0,01) }{ (0,05 + 0,01) }\\ \\
+		& \mathbf{[HAc] = 6,67 \times 10^{-2} \text{ \textbf{mol}} \times L^{-1}}
+	\end{align*}
+\end{fleqn}
+
+\begin{fleqn}
+	\begin{align*}
+		& pH = pKa + \log \frac{[Ac^{-}]}{[HAc]} = 4,757 + \log \frac{1,67 \times 10^{-2}}{6,67 \times 10^{-2}} \\
+		& \textbf{pH = 4,156}
+	\end{align*}
+\end{fleqn}
+
+\subsection{Após adição de 25,00 mL (0,025 L) de NaOH}
+Esse volume corresponde à metade do volume de equivalência, portanto, nesse ponto, o valor do pH corresponde ao valor do pKa. Assim:
+
+\begin{fleqn}
+	\begin{align*}
+		 \textbf{pH = pKa = 4,757}
+	\end{align*}
+\end{fleqn}
+
+\subsection{Adição de 50,00 mL (0,05 L) de NaOH - no ponto de equivalência}
+A adição de 50,00 mL de base quer dizer que estamos no ponto de equivalência, onde todo o ácido é neutralizado pela base. Neste ponto, o cálculo do pH é realizado pensando-se na hidrólise do sal (NaAc), cuja equação pode ser vista abaixo:
+
+\begin{chemeqn}
+	Ac^{-}_{(aq)} + H_{2}O_{(l)} \equilibarrow HAc_{(aq)} + OH^-{} 
+\end{chemeqn}
+
+Nesse sentido, a maneira de realizar o cálculo envolverá a concentração de $OH^{-}$ presente no sistema. E outra variável que também precisaremos é o valor de Kb. Assim:
+
+\begin{fleqn}
+	\begin{align*}
+		[OH^{-}] = \sqrt{Kb \times C_{NaAc}}
+	\end{align*}
+\end{fleqn}
+
+Para calcular a concentração do sal, que será a mesma do acetato, é preciso pensar que este tem uma relação estequiométrica de 1:1 com a base, portanto, para saber a $[Ac^{-}]$ usaremos os dados de NaOH, dessa forma:
+
+\begin{fleqn}
+	\begin{align*}
+		&[NaAc] = \frac{ (C_{NaOH} \times V_{NaOH}) }{ (V_{HAc} + V_{NaOH}) } = \frac{ (0,1 \times 0,05) }{ (0,05 + 0,05) } \longrightarrow	 \mathbf{[NaAc] = 5,0 \times 10^-2 \text{ \textbf{mol}} \times L^{-1}}
+	\end{align*}
+\end{fleqn}
+
+O próximo passo é calcular o valor do Kb: 
+
+\begin{fleqn}
+	\begin{align*}
+		&Kw = Ka \times Kb \longrightarrow	 (1,0 \times 10^{-14}) = (1,75 \times 10^{-5}) \times Kb \\ \\
+		&Kb = \frac{1,0 \times 10^{-14}}{1,75 \times 10^{-5}} \longrightarrow	 \mathbf{Kb = 5,71 \times 10^{-10}}
+	\end{align*}
+\end{fleqn}
+
+Finalizado com o cálculo da $[OH^{-}]$ e consequentemente o valor do pH no ponto de equivalência:
+
+\begin{fleqn}
+	\begin{align*}
+		&[OH^{-}] = \sqrt{Kb \times C_{NaAc}} = \sqrt{(5,71 \times 10^{-10}) \times (5,0 \times 10^{-2})} \\
+		&[OH^{-}] = 5,34 \times 10^{-6} \longrightarrow	 pOH = 5,27 \longrightarrow	 \textbf{pH = 8,73}
+	\end{align*}
+\end{fleqn}
+
+\subsection{Após a adição de 50,10 mL (0,0510 L) de NaOH}
+Neste ponto todo o ácido foi neutralizado, portanto, passamos a ter um excesso de base.
+
+\begin{fleqn}
+	\begin{align*}
+		&[OH^{-}] = \frac{ (C_{NaOH} \times V_{NaOH}) - (C_{HAc} \times V_{HAc}) }{ (V_{NaOH} \times V_{HAC}) } = \frac{ (0,1 \times 0,0510) - (0,1 \times 0,05) }{ (0,0510 + 0,05) } \\ \\	
+		&[OH^{-}] = 9,99 \times 10^{-4} \longrightarrow	 pOH = 3,00 \longrightarrow	 \textbf{pH = 10,00}
+	\end{align*}
+\end{fleqn}
+
+\section{Curva de titulação}
+A curva de titulação (Figura \ref{fig:curvasdetitulacaoacaceticoehidroxidodesodio}) é resultado de programa escrito em Python, que, utilizando os passos descritos na seção \textbf{Etapas de titulação}, produziu os dados necessários para sua construção. \\
+
+O programa toma como referência os dados para titulação da seção 3 e calcula o pH considerando a variação de volume do NaOH de 0,00 mL até 120 mL. Na Tabela \ref{demo-table} podemos ver os primeiros e últimos valores deste cálculo:
+
+\begin{table}[H]
+	\begin{center}
+		\caption{Valores de pH nos respectivos volumes de NaOH}
+		\label{demo-table}
+		\begin{tabular}{rp{5cm}rp{5cm}}\toprule
+			& \textbf{pH} & \textbf{Volume (L)} \\ \midrule			
+			0 & 2.87848000 & 0.00000000 \\ 
+			1 & 1.75740000 & 0.00005000 \\ 
+			2 & 2.05886000 & 0.00010000 \\
+			3 & 2.23539000 & 0.00015000 \\
+			4 & 2.36076000 & 0.00020000 \\
+			& ... & ... \\
+			2405 & 12.61556000 & 0.12025000 \\
+			2406 & 12.61574000 & 0.12030000 \\
+			2407 & 12.61592000 & 0.12035000 \\
+			2408 & 12.61610000 & 0.12040000 \\
+			2409 & 12.61628000 & 0.12045000 \\
+			\bottomrule
+		\end{tabular}
+	\end{center}
+\end{table}
+
+\section{Gráfico}
+Abaixo pode-se visualizar o gráfico resultante dos cálculos. Nele, marcado com linha pontinhada, temos os valores de:
+
+\begin{table}[H]
+	\begin{center}
+		\caption{Volume equivalência e pH}
+		\label{tabela_vol_eq_e_pH}\textbf{}
+		\begin{tabular}{lp{5cm}lp{10cm}}\toprule
+			\textbf{Volume de equivalência} & \textbf{pH} \\ \midrule
+			50,00 mL & 8.728 \\ 
+			\bottomrule
+		\end{tabular}
+	\end{center}
+\end{table}
+
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[width=0.99\linewidth]{curvas_de_titulacao_ac_acetico_e_hidroxido_de_sodio}
+%	\caption[Curva de Titulação]{}
+%	\label{fig:curvasdetitulacaoacaceticoehidroxidodesodio}
+%\end{figure}
+
+
+\end{document}
