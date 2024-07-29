@@ -86,7 +86,7 @@ class MainWindow(QtWidgets.QMainWindow):
         -------
         None.
 
-        """       
+        """
         # Properties of windows.
         self.setWindowTitle("Volumetry")
         self.setWindowIcon(QtGui.QIcon('images/logo_volumetry.png'))
@@ -164,9 +164,8 @@ class MainWindow(QtWidgets.QMainWindow):
         self.optAcForteBaForte.setStatusTip("O pH no P.E = 7,00")
         self.optAcForteBaForte.setObjectName("optAcForteBaForte")
         self.optAcForteBaForte.setAccessibleName("optAcForteBaForte")
-        self.optAcForteBaForte.toggled.connect(self.onClicked)
         self.optAcForteBaForte.setChecked(True)
-        self.getAcForteBaForte()  # list of strong acid and strong base
+        self.optAcForteBaForte.toggled.connect(self.onClicked)
         self.listTypeVolGrid.addWidget(self.optAcForteBaForte, 0, 0, 1, 2)
 
         self.optAcFracoBaForte = QtWidgets.QRadioButton("Ácido Fraco com Base Forte")
@@ -325,11 +324,13 @@ class MainWindow(QtWidgets.QMainWindow):
         """
         # Get a list of strong acids
         list_of_acids = self.readAcids("S")
-        # list_of_bases = readBases("S")
+        list_of_bases = self.readBases("S")
 
         # adding itens
-        self.listAcidsGroupBox.clear()
-        self.listAcidsGroupBox.addItems(list_of_acids)
+        self.combListAcids.clear()
+        self.combListAcids.addItems(list_of_acids)
+        self.combListBases.clear()
+        self.combListBases.addItems(list_of_bases)
 
     def getAcFracoBaForte(self):
         pass
@@ -356,12 +357,40 @@ class MainWindow(QtWidgets.QMainWindow):
         with open("data/acids.csv", "r") as csv_file:
             # creating a csv reader object
             csv_reader = csv.reader(csv_file)
+            next(csv_reader, None)
 
             # extracting each data row one by one
             for row in csv_reader:
-                list_of_acids.append(row[0])
+                list_of_acids.append(row[1])
 
         return list_of_acids
+
+    def readBases(self, strength):
+        """
+        Read fron bases.csv a list of acids.
+
+        Parameters
+        ----------
+        strength : str
+            The base strength.
+
+        Returns
+        -------
+        list
+            A list of all bases that have the type of specified base strength.
+
+        """
+        list_of_bases = []
+        with open("data/bases.csv", "r") as csv_file:
+            # creating a csv reader object
+            csv_reader = csv.reader(csv_file)
+            next(csv_reader, None)
+
+            # extracting each data row one by one
+            for row in csv_reader:
+                list_of_bases.append(row[1])
+
+        return list_of_bases
 
     def setRightFrame(self):
         """Right Frame."""
